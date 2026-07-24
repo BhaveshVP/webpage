@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        REMOTE_HOST = "ubuntu@YOUR_EC2_PUBLIC_IP"
-        SSH_CREDENTIAL = "ec2-ssh-key"
+        REMOTE_HOST = "ubuntu@13.234.21.104"
+        SSH_CREDENTIAL = "19-VPC.pem"
     }
 
     stages {
